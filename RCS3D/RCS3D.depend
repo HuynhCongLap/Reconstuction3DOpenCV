@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1543269567 source:/home/pin/Desktop/github/Reconstuction3DOpenCV/RCS3D/main.cpp
+	<iostream>
+	<time.h>
+	<opencv2/opencv.hpp>
+	<iomanip>
+
