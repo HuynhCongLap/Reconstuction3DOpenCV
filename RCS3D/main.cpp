@@ -37,6 +37,7 @@ int main(int argc, char* argv[]) {
          std::cout<<"Hi3";
         camera >> frame;
         if(frame.empty()) {
+            std::cout<<"Empty";
             continue;
         }
 
@@ -53,7 +54,7 @@ int main(int argc, char* argv[]) {
 
         double timestamp = static_cast<double>((clock())/CLOCKS_PER_SEC);
 
-        if(found && timestamp - last_captured_timestamp > 1) {
+        if(found) {
             std::cout<<"Hello";
 
 			std::stringstream Frame;   // name used to save chapture images
